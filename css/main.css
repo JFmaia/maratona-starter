@@ -1,3 +1,40 @@
+/*  #BA181B red1 
+    #E5383B red2 
+    #0B090A black1
+    #161A1D black2 
+    #FFFFFF white1 
+    #F5F3F4 white2 
+    #F5F3F4 white3  */
+
+
+/* Gemerico */
 body{
     font-family: 'Manrope', sans-serif;
 }
+
+.btn{
+    text-transform: uppercase;
+    padding: 12px 24px;
+    background-color: transparent;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+}
+
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+/* Layout especifico */
+#header-container{
+    background-color:#0B090A;
+}
+
+.header{
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 72px;
+}
+
