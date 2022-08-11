@@ -147,3 +147,19 @@ body{
     line-height: 24px;
 }
 
+/* Locaition section */
+
+#location-container{
+    background-color: #F5F3F4;
+    padding: 48px 24px 0;
+}
+
+#location-container header{
+   padding: 48px;
+}
+
+#location-container address{
+    display: flex;
+    align-items: center;
+    gap:12px;
+}
