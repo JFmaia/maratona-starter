@@ -7,9 +7,10 @@
     #F5F3F4 white3  */
 
 
-/* Gemerico */
+/* Genérico */
 body{
     font-family: 'Epilogue', sans-serif;
+    color: #0B090A;
 }
 
 .btn{
@@ -38,6 +39,20 @@ body{
     margin: 0 auto;
 }
 
+.overtitle{
+    color: #E5383B;
+    font-size: 1rem;
+    line-height: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.title{
+    font-size: 2.75rem;
+    line-height: 56px;
+    font-weight: 700;
+}
+
 /* Layout especifico */
 #header-container{
     background-color:#0B090A;
@@ -56,6 +71,7 @@ body{
 #hero-container{
     background-color: #0B090A;
     color: #FFFFFF;
+    padding: 0px 72px;
 }
 
 .hero{
@@ -64,14 +80,17 @@ body{
     gap: 32px;
 }
 
-.hero-text, .hero-img{
+.hero-img{
     flex:1;
+    align-self: flex-end;
 }
 
 .hero-text{
+    flex:1;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    padding: 96px 0px;
     gap: 16px;
 }
 
@@ -89,5 +108,42 @@ body{
     font-size: 20px;
     line-height: 28px;
     max-width: 520px;
+}
+
+/* Service section */
+
+#services-container{
+    padding: 96px 72px;
+}
+
+.services-list{
+    margin-top: 48px;
+    display: flex;
+    gap: 32px;
+}
+
+.service-card{
+    background-color: #F5F3F4;
+    border: 2px solid #D3D3D3;
+}
+
+.service-card img{
+    width: 100%;
+}
+
+.service-card__text{
+    padding: 32px;
+}
+
+.service-card__text h3{
+    font-size: 1.5rem;
+    line-height: 32px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.service-card__text p{
+    font-size: 1rem;
+    line-height: 24px;
 }
 
