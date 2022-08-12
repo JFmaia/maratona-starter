@@ -3,8 +3,7 @@
     #0B090A black1
     #161A1D black2 
     #FFFFFF white1 
-    #F5F3F4 white2 
-    #F5F3F4 white3  */
+    #F5F3F4 white2   */
 
 
 /* Genérico */
@@ -27,11 +26,22 @@ body{
 
 .btn-primary{
     background-color: #BA181B;
+    display: flex;
+    align-items: center;
+    gap: 22px;
+}
+
+.btn-primary:hover{
+    background-color: #941B1D;
 }
 
 .btn-outline{
     border: 2px solid #FFFFFF;
     background-color: transparent;
+}
+
+.btn-outline:hover{
+    border: 2px solid #D9D9D9;
 }
 
 .container{
@@ -151,15 +161,46 @@ body{
 
 #location-container{
     background-color: #F5F3F4;
-    padding: 48px 24px 0;
 }
 
-#location-container header{
-   padding: 48px;
-}
+#location-container .location{
+    padding: 96px 72px 48px;
+}   
 
 #location-container address{
     display: flex;
     align-items: center;
     gap:12px;
 }
+
+/* Footer */
+
+#footer-container{
+    background-color: #161A1D;
+    color: #FFFFFF;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 48px 72px;
+}
+
+.footer a{
+    color: currentColor;
+}
+
+.footer-text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-text__span{
+    font-weight: 400;
+    line-height: 24px;
+    color:#F5F3F4;
+    font-size: 16px;
+}
+
